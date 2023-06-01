@@ -32,5 +32,68 @@ To facilitate testing and development, a remote development environment is provi
 
 For login information and access to the remote development environment, please contact Amber Caravalho.
 
+## Example CTF Infrastructure Map
+```mermaid
+graph LR
+  subgraph "ISP WAN"
+    Internet
+  end
+
+  subgraph "Unmanaged Switches"
+    InternalSwitch(Internal Switch)
+    ExternalSwitch(External Switch)
+  end
+
+  subgraph "Server(s)"
+    subgraph "Server Hardware"
+      Server1((Server 1))
+      Server2((Server 2))
+      Server3((Server 3))
+      ServerSpecs
+    end
+    subgraph "Installed Software (On Each Server)"
+      Proxmox
+      PFSense
+      Docker
+      ContestFramework
+      KasmWorkspaces
+    end
+    subgraph "Server Responsibilities"
+      Routing[Routing]
+      Firewall[Firewall]
+      DNS[DNS]
+      ContestFramework[Contest Framework]
+      Challenges[Challenges]
+      KasmWorkspaces[Kasm Workspaces]
+    end
+  end
+
+  subgraph "Wireless Access Point"
+    WirelessAccessPoint
+  end
+
+  subgraph "Personal Contestant Devices"
+    ContestantDevices[Contestant Devices]
+  end
+
+  Internet <-- Ethernet Cable --> InternalSwitch
+
+  Server1 <-- Ethernet Cable --> InternalSwitch
+  Server2 <-- Ethernet Cable --> InternalSwitch
+  Server3 <-- Ethernet Cable --> InternalSwitch
+
+  ServerSpecs[32 Cores, 128GB RAM] --> Server1
+  ServerSpecs[32 Cores, 128GB RAM] --> Server2
+  ServerSpecs[32 Cores, 128GB RAM] --> Server3
+
+  InternalSwitch <-- Ethernet Cable --> ExternalSwitch
+  WirelessAccessPoint -- Ethernet Cable --> ExternalSwitch
+
+  PFSense -- Manages IPs & DNS For --> ExternalSwitch
+
+  ContestantDevices -- WiFi --> WirelessAccessPoint
+  ContestantDevices -- Ethernet Cables --> ExternalSwitch
+```
+
 ## Prepare for Battle!
 As a developer or maintainer of the JBLE Cyber Games CTF, you play a crucial role in creating an exhilarating cyber battle environment. The challenges you develop will push participants to their limits and contribute to the success of the competition. Stay focused, think creatively, and remember the flag format: __cygame{}__.
