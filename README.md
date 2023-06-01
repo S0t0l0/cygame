@@ -35,64 +35,68 @@ For login information and access to the remote development environment, please c
 ## Example CTF Infrastructure Map
 ```mermaid
 graph LR
-  subgraph "ISP WAN"
-    Internet
-  end
 
-  subgraph "Unmanaged Switches"
+subgraph "ISP WAN"
+    Internet
+end
+
+subgraph "Unmanaged Switches"
     InternalSwitch(Internal Switch)
     ExternalSwitch(External Switch)
-  end
+end
 
-  subgraph "Server(s)"
+subgraph "Server(s)"
     subgraph "Server Hardware"
-      Server1((Server 1))
-      Server2((Server 2))
-      Server3((Server 3))
-      ServerSpecs
+        Server1((Server 1))
+        Server2((Server 2))
+        Server3((Server 3))
+        ServerSpecs{32 Cores, 128GB RAM}
     end
+
     subgraph "Installed Software (On Each Server)"
-      Proxmox
-      PFSense
-      Docker
-      ContestFramework
-      KasmWorkspaces
+        Proxmox
+        PFSense
+        Docker
+        ContestFramework
+        KasmWorkspaces
     end
+
     subgraph "Server Responsibilities"
-      Routing[Routing]
-      Firewall[Firewall]
-      DNS[DNS]
-      ContestFramework[Contest Framework]
-      Challenges[Challenges]
-      KasmWorkspaces[Kasm Workspaces]
+        Routing[Routing]
+        Firewall[Firewall]
+        DNS[DNS]
+        ContestFramework[Contest Framework]
+        Challenges[Challenges]
+        KasmWorkspaces[Kasm Workspaces]
     end
-  end
+end
 
-  subgraph "Wireless Access Point"
+subgraph "Wireless Access Point"
     WirelessAccessPoint
-  end
+end
 
-  subgraph "Personal Contestant Devices"
+subgraph "Personal Contestant Devices"
     ContestantDevices[Contestant Devices]
-  end
+end
 
-  Internet <-- Ethernet Cable --> InternalSwitch
+Internet -- Ethernet Cable --> InternalSwitch
 
-  Server1 <-- Ethernet Cable --> InternalSwitch
-  Server2 <-- Ethernet Cable --> InternalSwitch
-  Server3 <-- Ethernet Cable --> InternalSwitch
+Server1 -- Ethernet Cable --> InternalSwitch
+Server2 -- Ethernet Cable --> InternalSwitch
+Server3 -- Ethernet Cable --> InternalSwitch
 
-  ServerSpecs[32 Cores, 128GB RAM] --> Server1
-  ServerSpecs[32 Cores, 128GB RAM] --> Server2
-  ServerSpecs[32 Cores, 128GB RAM] --> Server3
+ServerSpecs --> Server1
+ServerSpecs --> Server2
+ServerSpecs --> Server3
 
-  InternalSwitch <-- Ethernet Cable --> ExternalSwitch
-  WirelessAccessPoint -- Ethernet Cable --> ExternalSwitch
+InternalSwitch -- Ethernet Cable --> ExternalSwitch
+WirelessAccessPoint -- Ethernet Cable --> ExternalSwitch
 
-  PFSense -- Manages IPs & DNS For --> ExternalSwitch
+PFSense -- Manages IPs & DNS For --> ExternalSwitch
 
-  ContestantDevices -- WiFi --> WirelessAccessPoint
-  ContestantDevices -- Ethernet Cables --> ExternalSwitch
+ContestantDevices -- WiFi --> WirelessAccessPoint
+ContestantDevices -- Ethernet Cables --> ExternalSwitch
+
 ```
 
 ## Prepare for Battle!
