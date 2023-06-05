@@ -1,5 +1,5 @@
 # JBLE Cyber Games CTF (2023)
-Welcome to the Joint Base Langley-Eustis Cyber Games CTF 2023, a thrilling virtual arena where talented cyber warriors come together to test their skills and compete for glory. This document serves as a technical guide for developers and maintainers of the project.
+Welcome to the Joint Base Langley-Eustis Cyber Games CTF 2023, a thrilling virtual arena where talented cyber warriors come together to test their skills and compete for glory. This document serves as a technical guide for developers and maintainers of the project. Just A reminder, and though it goes without saying, all challenges are confidential. Please DO NOT SHARE them with anyone outside of the development. Anyone who has seen challenges CANNOT participate in the event as a contestant.
 
 <img src="https://github.com/S0t0l0/cygame/blob/2449ea41074b2272f1d12b4022abc57fcf42bd00/JBLE_Cyber_Games_CTF_2023_Logo.png" width=25% height=25%>
 
