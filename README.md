@@ -25,13 +25,6 @@ To streamline the development process, we utilize a version-controlled approach 
 
 Please refer to the development guide in the __"Challenges"__ branch for detailed information on developing challenges.
 
-## Temporary Remote Development Environment
-To facilitate testing and development, a remote development environment is provided for all developers. The environment is as follows:
-* __System Name__: cygame-dev-lxc
-* __SSH__: ambercaravalho.com:22
-
-For login information and access to the remote development environment, please contact Amber Caravalho.
-
 ## Example CTF Infrastructure Map
 ```mermaid
 graph LR
