@@ -5,8 +5,12 @@
 | 100        |                       |           |    A Fine Day to Decrypt    |                         |                          |
 | 300        |      R.P.S.L.K        |           |         In the Navy         |                         |                          |
 | 300        |                       |           |           SP on Me          |                         |                          |
-| 300        |                       |           |    A Finer Day to Decrypt   |                         |                          |
+| 300        |                       |           |    A Finer Day to Decrypt   |  X1                     |                          |
 | 500        |                       |           |       Top Logo Cipher       |  Lost & Forgotten Clone |                          |
 | 500        |   Eye-patch Clone     |           |         Blank Space         |  My Robot Best Friend   |   Plane Landing OSINT    |
 | 1000       |                       | BEEP BOOP |                             |      Echo Service       | Apollo Guidance Computer |
 | 1000       | First-Responder Clone |           |                             |   Logical Clone (TAMU)  |     Attention Gamer      |
+
+X1= https://github.com/tamuctf/tamuctf-2023/tree/master/web/blackbox
+Lost and Forgotten Clone = https://github.com/tamuctf/tamuctf-2023/tree/master/web/lost-and-forgotton
+X2 = https://github.com/tj-oconnor/avengercon/tree/main/pwn/scada_security
