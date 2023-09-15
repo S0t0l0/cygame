@@ -1,15 +1,15 @@
 | Cygame CTF |          RE           |   FOR     |          CRYPTO             |          WEB            |           MISC           |
 |------------|-----------------------|-----------|-----------------------------|-------------------------|--------------------------|
-| 100        | No Strings Attached   |           |      Bottom Logo Cipher     | Space Balls 2: the SQL  |                          |
+| 100        | No Strings Attached   |           |                             |                         |    Bottom Logo Cipher    |
 | 100        |       DEAL ME         |           | The Trouble with One-to-One | Bank of Knowehere Clone |                          |  
-| 100        |                       |           |    A Fine Day to Decrypt    |                         |                          |
+| 100        |                       |           |    A Fine Day to Decrypt    |                         |     Attention Gamer      |
 | 300        |      R.P.S.L.K        |           |         In the Navy         |                         |                          |
 | 300        |                       |           |         Blank Space         |                         |                          |
 | 300        |                       |           |    A Finer Day to Decrypt   |  X1                     |                          |
-| 500        |                       |           |       Top Logo Cipher       |  Lost & Forgotten Clone |                          |
+| 500        |                       |           |                             |  Lost & Forgotten Clone |    Top Logo Cipher       |
 | 500        |   Eye-patch Clone     |           |           SP on Me          |  My Robot Best Friend   |   Plane Landing OSINT    |
 | 1000       |                       | BEEP BOOP |         Diffy Crypt         |      Echo Service       | Apollo Guidance Computer |
-| 1000       | First-Responder Clone |           |                             |   Logical Clone (TAMU)  |     Attention Gamer      |
+| 1000       | First-Responder Clone |           |                             |   Logical Clone (TAMU)  |                          |
 
 X1= https://github.com/tamuctf/tamuctf-2023/tree/master/web/blackbox
 Lost and Forgotten Clone = https://github.com/tamuctf/tamuctf-2023/tree/master/web/lost-and-forgotton
