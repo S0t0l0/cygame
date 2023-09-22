@@ -1,0 +1,15 @@
+This challenge has three (nonstackable) flags to choose from:
+
+1. cygame{"@ASCII...ascii...123}
+-- OR -- 
+2. cygame{"@ASCII...ascii...1234...!"#$%&'()*+,-./:;<=>?[]^_`{|}
+-- OR --
+3. cygame{"@ASCII...ascii...1234...!"#$%&'()*+,-./:;<=>?[]^_`{|}~}
+
+NOTES: 
+Flag 1 exists because with the given affine E(x) = 21*x + 73, the character '4' will map to the carriage return, denoted as '\r'. 
+If someone were to copy-and-paste the ciphertext or read the file as a non-binary file, '\r' would instead take the form of '\n' (which maps back to '}')
+To avoid this problem, we must read the ciphertext as a binary file.
+Still, this detail was deemed to nuanced for such a challenge, so this first flag was added.
+
+Flag 2 and 3 exists because of an oversight during creation (the character '}' should not be included in future flags).

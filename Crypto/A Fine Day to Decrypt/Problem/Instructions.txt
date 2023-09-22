@@ -1,0 +1,6 @@
+The attached ciphertext was intercepted by our systems, and we suspect it contains the works of our adversaries.  Moreover, it seems our adversaries are somehow using a particular polynomial to encrypt their messages (byte by byte):
+
+  E(x) = (21*x + 73) mod 128
+
+Will you be able to decrypt the ciphertext?
+(See encryptSnippet.py for a sample implementation of this encryption method.)

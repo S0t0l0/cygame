@@ -1,0 +1,3 @@
+We've intercepted an encrypted message using a custom 16-bit block cipher (see NetworkVis.PNG for details). However, we do not know what kind of key schedule they are using, so predicting each round key has so far been a shot in the dark. Fortunately, recent intelligence suggests their substitution-box is incredibly weak, rendering their encryption network vulnerable to differential cryptanalysis. Additionally, we've managed to uncover some plaintext-ciphertext pairs (see plain-cipher.csv) that may help you crack the original plaintext for the following ciphertext (given in hex form):
+
+    '7a47857bcbd5a8c5bed41936ad897f463543b35a31bba9a335a97ff6ae0aced65a3182231a2f813ab5b532a8933cd448eaf0'

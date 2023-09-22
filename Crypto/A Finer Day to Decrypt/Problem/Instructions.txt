@@ -1,0 +1,5 @@
+It seems the target has increased the amount of characters they can support with their encryption methods.  So far, we have managed to recover their new encryption polynomial:
+
+  E(x) = (489891*x + 534965) mod 1114111.
+
+However, we still need to find a way to reverse it to glean information from the attached ciphertext.

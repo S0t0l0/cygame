@@ -1,0 +1,7 @@
+P          - 16-bit block before encryption (plaintext).
+E(P) 	   - Result of encrypting 16-bit block P.
+E(P XOR B) - Result of encrypting the bitwise XOR between 16-bit P and 16-bit B. 
+
+For example, with P = 0x0041, we have
+
+	E(P XOR 0x8080) = E(0x0041 XOR 0x8080) = E(0x80c1) = 0x4732.

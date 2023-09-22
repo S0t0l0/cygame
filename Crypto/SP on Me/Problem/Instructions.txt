@@ -1,0 +1,16 @@
+We have discovered an implementation of an encryption system known to utilize the Substitution-Permutation Network (SPN) model with a block size of 16 bits. Further, we know the structure of the SPN (see attached image), the substitution box S, and the permutation box P:
+
+	S = [0xe, 0x4, 0xd, 0x1, 0x2, 0xf, 0xb, 0x8, 0x3, 0xa, 0x6, 0xc, 0x5, 0x9, 0x0, 0x7]
+	P = [0x6, 0x2, 0x5, 0x8, 0xd, 0x7, 0xc, 0x4, 0x3, 0xb, 0x0, 0xe, 0xa, 0x1, 0xf, 0x9].
+
+However, we still do not know the key K. Perhaps you will be able to find the key and use it to reverse the following ciphertext (hex form):
+
+	ff29803a1dc0ae1ac892ee0f6a9c88da6f2c408ec1ff5715245cfd7a9055a4301d85
+
+NOTES: 
+- Messages with an odd amount of bytes are appended with the null byte for padding.
+- The substitution box S sends the nibble 0x0 to 0xe, 0x1 to 0x4, 0x2 to 0xd, 0x3 to 0x1, and etc.
+- The permutation box P rearranges the bits in a word so that the 6th bit becomes the 0th, 2nd becomes 1st, 5th becomes 2nd, 8th becomes 3rd, etc.
+- For example, the given P-box sends 0xfa23 to 0xc1be
+- S, P, and key K do not change on the SP Network
+- Lastly, remember the flag prefix!

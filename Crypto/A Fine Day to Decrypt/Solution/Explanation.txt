@@ -1,0 +1,10 @@
+To solve this problem, let a=21 (our coefficient for x), b=73 (our constant), and our function f:Z_128→Z_128 be defined by
+f(x)=ax+b.
+Note that Z_128 denotes the ring of integers mod 128.  Moreover, a being coprime with modulus 128 is sufficient to guarantee f is bijective (and therefore invertible).  That is, f^(-1) exists, where f(f^(-1) (x))=f^(-1) (f(x))=x.  To find f^(-1), we see that
+f(f^(-1) (x))=x
+a(f^(-1) (x))+b=x
+f^(-1) (x)+a^(-1) b=a^(-1) x
+f^(-1) (x)=a^(-1) x-a^(-1) b
+f^(-1) (x)=a^(-1) x+a^(-1) (-b),
+where a^(-1) denotes the multiplicative inverse of a in Z_128(the integers mod 128) and -b denotes the additive inverse of b in Z_128.  Under mod 128, we have 21⋅61=1281=1, so a^(-1)=61.  Simultaneously, we have 73+55=128=0 under our modulus, so -b=55.  Overall, we have f^(-1):Z_128→Z_128 defined by
+f^(-1) (x)=61x+27.

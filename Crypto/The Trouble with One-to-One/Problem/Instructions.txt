@@ -1,0 +1,1 @@
+In a covert operation, our team successfully intercepted a puzzling chunk of ciphertext. Despite our best efforts, its veil remains unlifted. Word in the cryptographic underworld suggests our target has a penchant for substitution ciphers. Your mission: delve into 'ciphertext.txt' and unveil the concealed message. Do you have what it takes to crack their code?

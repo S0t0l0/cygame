@@ -1,0 +1,1 @@
+We captured one of the enemy's messages, which contains data yet seems empty. Surely there is a way to decipher it.

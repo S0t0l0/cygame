@@ -1,0 +1,11 @@
+ASCII, or the American Standard Code for Information Interchange, has a rich history dating back to the 1960s. It all began when Robert W. Bemer - a vibrant pioneer in computing - put forth the idea of a universal language for computers.
+
+Bemer's vision resulted in ASCII, a character encoding standard that was formally introduced on June 17, 1963, by the American National Standards Institute (ANSI). The goal was simple: to enable communication between various types of data processing and telecommunications equipment.
+
+The original ASCII table was limited to 128 characters, from 0 to 127. This early version, known as "standard ASCII," contained letters (both upper and lower case), digits, punctuation marks, and special control characters. Here's a small snippet: cygame{"@ASCII...ascii...1234...!"#$%&'()*+,-./:;<=>?[]^_`{|}~}. However, it was missing many non-English characters and symbols, hence was soon deemed inadequate for international use.
+
+To address this, the ASCII table was later extended to 256 characters, known as "extended ASCII." This added support for non-English letters, special symbols, and graphical characters. The use of these extra characters varies depending on the software and hardware implementation, with systems like DOS and Windows having their own interpretations of the extended ASCII.
+
+Today, ASCII still has a significant presence in computing, although it has largely been superseded by Unicode, which supports a far greater range of characters, including those from non-Latin scripts. Nonetheless, ASCII's legacy remains undeniable, laying the groundwork for computer languages and communication protocols used around the world.
+
+And so ends our brief history. We've visited many of ASCII's characters, even if not in their typical usage: ^\ and _`{|}~ as punctuation, [] as empty lists, * as a mere asterisk, # as a simple symbol, and @, which, before it found a new life in email, was just another character. It's truly a fascinating world when one dives into the depths of ASCII.
