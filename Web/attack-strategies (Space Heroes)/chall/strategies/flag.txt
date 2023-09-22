@@ -1,0 +1,1 @@
+cygame{get_zerg_rushed_nb}
