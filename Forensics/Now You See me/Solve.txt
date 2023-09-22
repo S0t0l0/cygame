@@ -1,0 +1,24 @@
+Certainly, to solve the challenge of extracting frames from a GIF named "Now You See Me" using ImageMagick, follow these steps:
+
+1. **Install ImageMagick:**
+   If you don't already have ImageMagick installed on your system, you can download it from the official website (https://imagemagick.org/script/download.php) and follow the installation instructions for your platform.
+
+2. **Open a Terminal (Command Prompt):**
+   Launch your terminal or command prompt. Ensure that you navigate to the directory where the "Now You See Me" GIF file is located.
+
+3. **Extract Frames:**
+   Use the `convert` command to extract the frames from the GIF and save them as separate image files. Replace `"NowYouSeeMe.gif"` with the actual file name of your GIF:
+
+   ```bash
+   convert "NowYouSeeMe.gif" "frame%d.png"
+   ```
+
+   This command will extract the frames and save them as individual PNG files with names like "frame0.png," "frame1.png," etc.
+
+4. **Inspect Frames:**
+   Open the extracted frames using an image viewer or editor of your choice. Carefully examine each frame for the flag
+
+
+5. **Submit the Flag:**
+   Once you've found the flag, submit it according to the rules of the challenge or competition. 
+

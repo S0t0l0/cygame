@@ -1,0 +1,1 @@
+We were recently hit by a massive ransomware attack. We recovered this mem capture. Can you find the application causing this mess?

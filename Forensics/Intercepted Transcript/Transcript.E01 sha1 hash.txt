@@ -1,0 +1,39 @@
+﻿Created By AccessData® FTK® Imager 4.7.1.2 
+
+Case Information: 
+Acquired using: ADI4.7.1.2
+Case Number: 1
+Evidence Number: 1
+Unique description: Radio-Transcript-KOBRA-FOX
+Examiner: Cygame's DFIR Team
+Notes: Radio Transcript from Intercepted Agents. Suspected files missing.
+
+--------------------------------------------------------------
+
+
+Physical Evidentiary Item (Source) Information:
+[Device Info]
+ Source Type: Logical
+[Partition Information]
+ Starting Sector: 2,048
+ Sector Count: 2,105,344
+[GUID Partition Table Information]
+ Partition Type GUID: {EBD0A0A2-B9E5-4433-87C0-68B6B72699C7}
+ Unique Partition GUID: {CFBD9324-020E-491B-8A3A-7708AB6ACDEE}
+ Source data size: 1028 MB
+ Sector count:    2105344
+[Computed Hashes]
+ MD5 checksum:    6c27df341b37ea1b5445cca9b633d498
+ SHA1 checksum:   f044d867a865b487e696f1206b54fabcda691000
+
+Image Information:
+ Acquisition started:   Thu Sep 14 16:35:12 2023
+ Acquisition finished:  Thu Sep 14 16:35:22 2023
+ Segment list:
+
+
+Image Verification Results:
+ Verification started:  Thu Sep 14 16:35:22 2023
+ Verification finished: Thu Sep 14 16:35:25 2023
+ MD5 checksum:    6c27df341b37ea1b5445cca9b633d498 : verified
+ SHA1 checksum:   f044d867a865b487e696f1206b54fabcda691000 : verified
