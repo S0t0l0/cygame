@@ -16,5 +16,7 @@ The essence of the Cyber Games CTF is capturing the flag. Participants will enco
 
 ## Big Thank You to Contributors
 We extend our heartfelt gratitude to the creators of Space Heroes CTF 2023 and TAMU CTF 2023 for their generous collaboration with the Cyber Games CTF. Your willingness to share some of your challenges has enriched our competition and provided our participants with exciting new experiences. Thank you for your invaluable contribution to the world of cybersecurity.
+
 Link to Space Heroes CTF Github https://github.com/FITSEC/spaceheroes_ctf_23
+
 Link to TAMU CTF GitHub https://github.com/tamuctf/tamuctf-2023
